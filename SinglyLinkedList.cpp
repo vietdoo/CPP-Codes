@@ -348,7 +348,7 @@ int main () {
 	h.head = NULL;
 	h.tail = NULL;
 	createStartWithHList(l, h);
-	//printStudentList(h);
+	printStudentList(h);
 	addStudentByID(l, createNode());
 	printStudentList(l);
 	return 0;
